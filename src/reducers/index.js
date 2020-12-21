@@ -18,7 +18,7 @@ const initialState = {
   ],
 };
 
-export const removeFeatureReducer = (state = initialState, action) => {
+export const reducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD_FEATURE:
       return {
